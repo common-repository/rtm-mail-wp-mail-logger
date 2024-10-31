@@ -1,0 +1,24 @@
+{
+  "name": "rtm-mail",
+  "version": "1.0.4",
+  "description": "WP Mail Logger is a mail catcher that saves mails send from your WordPress site.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production",
+    "dev": "webpack --mode development --watch"
+  },
+  "keywords": [],
+  "author": "RTM Business",
+  "license": "ISC",
+  "devDependencies": {
+    "codemirror": "^5.65.1",
+    "css-loader": "^6.6.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.68.0",
+    "webpack-cli": "^4.9.2"
+  },
+  "dependencies": {
+    "flatpickr": "^4.6.9"
+  }
+}

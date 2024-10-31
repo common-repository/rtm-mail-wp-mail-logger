@@ -1,0 +1,1450 @@
+#wpcontent {
+    padding-left: 0 !important;
+    position: relative;
+}
+
+#rtm-mail {
+    margin: 0;
+    padding-bottom: 60px;
+}
+
+#rtm-mail a {
+    color: #297da8;
+}
+
+#rtm-mail th a:hover {
+    color: #194455 !important;
+}
+
+#rtm-mail .pro-opacity {
+    opacity: 0.4;
+}
+
+#rtm-mail .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    margin: 0 0 20px 0;
+    border-bottom: 1px solid #c3c4c7;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04)
+}
+
+#rtm-mail .navbar-item {
+    display: flex;
+    align-items: center;
+}
+
+#rtm-mail .nav-logo {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    margin-right: 20px;
+}
+
+#rtm-mail .nav-logo .logo {
+    display: block;
+    max-height: 40px;
+}
+
+#rtm-mail .nav-logo .logo-icon {
+    display: none;
+    max-height: 40px;
+}
+
+#rtm-mail .nav-logo .nav-version {
+    margin-left: 10px;
+    color: #bbbbbb;
+}
+
+#rtm-mail .nav-menu-links {
+    display: flex;
+    align-items: center;
+}
+
+#rtm-mail a.nav-selected {
+    color: #1d2327;
+    border-bottom: 2px solid #646970;
+}
+
+#rtm-mail a.nav-link {
+    color: #646970;
+    text-decoration: none;
+    padding: 20px 0;
+    margin-right: 50px;
+    transition: color 200ms ease-in-out;
+}
+
+#rtm-mail a.nav-link:hover {
+    color: #135e96;
+}
+
+#rtm-mail a.pro-link {
+    opacity: 0.2;
+}
+
+#rtm-mail a.mobile-link-toggle {
+    display: none;
+    text-align: right;
+    margin-right: 20px;
+    font-size: 24px;
+}
+
+#rtm-mail .navbar-mobile-container {
+    display: none;
+    position: absolute;
+    margin-top: -20px;
+    background: rgba(0, 0, 0, 0.3);
+    width: 100%;
+    height: 100%;
+    z-index: 99;
+}
+
+#rtm-mail .navbar-mobile {
+    display: none;
+    position: absolute;
+    right: 0;
+    width: 60%;
+    height: 100%;
+    background: #fff;
+    border-left: 1px solid #c3c4c7;
+}
+
+#rtm-mail .navbar-mobile a.nav-link-mobile {
+    display: block;
+    color: #646970;
+    text-decoration: none;
+    padding: 20px;
+    border-bottom: 1px solid #c3c4c7;
+}
+
+#rtm-mail .navbar-mobile a.nav-mobile-selected {
+    font-weight: 600;
+    color: #1d2327;
+}
+
+#rtm-mail > .rtm-mail-page-content {
+    padding: 0 20px;
+}
+
+#rtm-mail .rtm-heading {
+    font-size: 23px;
+    font-weight: 600;
+    margin: 0;
+}
+
+#rtm-mail .button {
+    background: #297da8 !important;
+    border-color: #297da8 !important;
+    color: #fff !important;
+}
+
+#rtm-mail .button:disabled {
+    cursor: not-allowed !important;
+    pointer-events: all !important;
+    background-color: #6E6E6E !important;
+    border-color: #6E6E6E !important;
+}
+
+#rtm-mail .button:hover {
+    background: #194455 !important;
+    border-color: #194455 !important;
+}
+
+#rtm-mail .button-invert {
+    border-color: #297da8 !important;
+    background: none !important;
+    color: #297da8 !important;
+}
+
+#rtm-mail .button-invert:hover {
+    border-color: #297da8 !important;
+    background: #297da8 !important;
+    color: #fff !important;
+    transition: background 250ms ease-in-out;
+}
+
+#rtm-mail .button-invert-remove {
+    border-color: #bf0707 !important;
+    background: none !important;
+    color: #bf0707 !important;
+}
+
+#rtm-mail .button-invert-remove:hover {
+    border-color: #bf0707 !important;
+    background: #bf0707 !important;
+    color: #fff !important;
+    transition: background 250ms ease-in-out;
+}
+
+#rtm-mail .button-delete {
+    background: #bf0707 !important;
+    border-color: #bf0707 !important;
+}
+
+#rtm-mail .button-delete:hover {
+    background: #730303 !important;
+    border-color: #730303 !important;
+}
+
+#rtm-mail .button-success {
+    background: #05988a !important;
+    border-color: #05988a !important;
+}
+
+#rtm-mail .button-success:hover {
+    background: #17675e !important;
+    border-color: #17675e !important;
+}
+
+#rtm-mail .button-action {
+    font-size: 11px;
+    min-height: inherit !important;
+    margin: 3px;
+    padding: 0 15px !important;
+}
+
+#rtm-mail .button-pro {
+    padding: 5px 20px;
+    font-weight: 600;
+    font-size: 15px;
+    background-color: #555555 !important;
+    border-color: #555555 !important;
+}
+
+#rtm-mail .button-pro:hover {
+    background-color: #333333 !important;
+    border-color: #333333 !important;
+}
+
+#rtm-mail .badge {
+    padding: 5px 10px;
+    font-size: 11px;
+    color: #fff;
+    border-radius: 10px;
+    background-color: #297da8;
+}
+
+#rtm-mail .badge-sent {
+    background-color: #05988a;
+}
+
+#rtm-mail .badge-failed {
+    background-color: #bf0707;
+}
+
+#rtm-mail .badge-caught {
+    background-color: #f6904d;
+}
+
+#rtm-mail .badge-pro {
+    padding: 2px 10px;
+    font-weight: bold;
+    background-color: #555555;
+    font-size: 10px!important;
+    text-decoration: none;
+}
+
+#rtm-mail .notice-header {
+    display: none;
+}
+
+/** Mobile CSS **/
+@media only screen and (max-width: 782px) {
+    #rtm-mail .navbar {
+        justify-content: space-between;
+    }
+
+    #rtm-mail .navbar-item {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    #rtm-mail .navbar-button {
+        display: none;
+    }
+
+    #rtm-mail .nav-logo .logo {
+        display: none;
+    }
+
+    #rtm-mail .nav-logo .logo-icon {
+        display: block;
+    }
+
+    #rtm-mail .nav-menu-links {
+        display: none;
+    }
+
+    #rtm-mail a.mobile-link-toggle {
+        display: block;
+    }
+}
+
+/* Overview Page */
+
+#rtm-mail .widefat td {
+    vertical-align: middle;
+}
+
+#rtm-mail th.check-column {
+    vertical-align: middle;
+}
+
+#rtm-mail th.check-column input {
+    margin: -3px 0 0 8px;
+}
+
+#rtm-mail .table-top-box {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#rtm-mail .search-box, .date-box {
+    margin: 1em 0 !important;
+}
+
+#rtm-mail .search-box {
+    float: right;
+}
+
+#rtm-mail .filter-box {
+    display: block;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+#rtm-mail .overview-actions {
+    display: block;
+}
+
+#rtm-mail .bulk-actions {
+    margin-bottom: 10px;
+}
+
+#rtm-mail .date-actions {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+#rtm-mail .date-actions > * {
+    margin-right: 30px;
+}
+
+#rtm-mail .filter-box .filter-label-box {
+    float: right;
+    text-align: right;
+    width: 100%;
+}
+
+#rtm-mail .filter-box .filter-label-box .filter-label {
+    font-weight: bold;
+    font-size: 12px;
+    cursor: pointer;
+    color: #297da8;
+    margin: 0 0 5px 0 !important;
+}
+
+#rtm-mail .filter-box .filter-label-box .filter-label .filter__icon {
+    margin-left: 5px;
+}
+
+#rtm-mail .filter-box .filter-label-box .filter-label-active::after {
+    content: "\f140";
+}
+
+#rtm-mail .filter-box .filter-input {
+    display: none;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#rtm-mail .filter-box .filter-input input {
+    margin-left: 10px;
+}
+
+#rtm-mail .filter-box label {
+    font-size: 11px !important;
+}
+
+#rtm-mail .filter-box #mail_subject {
+    margin-left: 0 !important;
+}
+
+#rtm-mail #rtm-date-range, #rtm-mail #rtm-queue-date {
+    background-color: #fff !important;
+}
+
+#rtm-mail .date-input-container:first-child {
+    margin-bottom: 10px;
+}
+
+#rtm-mail .mobile-grid {
+    display: none;
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+}
+
+#rtm-mail .mobile-grid tbody {
+    display: block;
+}
+
+#rtm-mail .mobile-grid tr {
+    display: block;
+    background: #f6f7f7;
+    border: 1px solid #c3c4c7;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+    margin-bottom: 15px;
+}
+
+#rtm-mail .mobile-grid tr > :nth-child(2n+1) {
+    background: #fff;
+}
+
+#rtm-mail .mobile-grid td {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#rtm-mail .mobile-grid .cell-label {
+    font-weight: 600;
+}
+
+#rtm-mail .mobile-grid .cell-data {
+    text-align: right;
+}
+
+#rtm-mail .action-list {
+    position: relative;
+}
+
+#rtm-mail .dropdown-box {
+    background: #fff;
+    padding: 3px 10px;
+    border: 1px solid #c3c4c7;
+    border-radius: 5px;
+    color: #3c434a !important;
+}
+
+#rtm-mail .mobile-grid .dropdown-menu {
+    display: none;
+    position: absolute;
+    inset: 0px 0px auto auto;
+    margin: 0;
+    transform: translate(0px, 25px);
+    z-index: 99;
+    background: #fff;
+    border: 1px solid #c3c4c7;
+    border-radius: 5px;
+    padding: 5px;
+    min-width: 10rem;
+    box-shadow: 0 10px 15px -3px rgba(15, 23, 41, 0.1), 0 4px 6px -2px rgba(15, 23, 41, 0.05);
+}
+
+#rtm-mail .mobile-grid .dropdown-item {
+    align-items: flex-start;
+    display: flex;
+    padding: 8px 10px;
+    font-weight: 600;
+    border-bottom: 1px solid #dadade;
+}
+
+#rtm-mail .mobile-grid .dropdown-item:last-child {
+    border-bottom: none;
+}
+
+#rtm-mail #dequeue-mail-log {
+    display: none;
+}
+
+.rtm-mail-footer {
+    position: absolute;
+    z-index: 99999;
+    right: 40px;
+    bottom: 40px;
+}
+
+@media (max-width: 959px) {
+    .rtm-mail-footer {
+        display: none;
+    }
+}
+
+@media (max-height: 756px) {
+    .rtm-mail-footer {
+        display: none;
+    }
+}
+
+/** Mobile CSS **/
+@media only screen and (max-width: 782px) {
+    #rtm-mail .table-top-box {
+        display: block;
+    }
+
+    #rtm-mail .search-box {
+        float: none;
+    }
+
+    #rtm-mail .filter-box {
+        margin-top: 0;
+    }
+
+    #rtm-mail .filter-box .filter-label-box .filter-label {
+        font-size: 14px;
+    }
+
+    #rtm-mail .filter-input-item {
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+
+    #rtm-mail .filter-box .filter-input input {
+        margin-left: 0;
+    }
+
+    #rtm-mail .bulkactions {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    #rtm-mail .wp-list-table tr:not(.inline-edit-row):not(.no-items) td:not(.column-primary)::before {
+        font-weight: 600;
+    }
+
+    #rtm-mail .wp-list-table tr:not(.inline-edit-row):not(.no-items) td.column-primary ~ td:not(.check-column) {
+        padding: 10px 10px 10px 35%;
+    }
+
+    .modal-container {
+        width: 80vw !important;
+    }
+
+    #rtm-mail .mobile__view {
+        display: block;
+        border: none;
+        box-shadow: none;
+        background: transparent;
+    }
+
+    #rtm-mail .desktop__view {
+        display: none;
+    }
+
+    #rtm-mail .filter-box .filter-input {
+        justify-content: inherit;
+    }
+
+    #rtm-mail .date-actions {
+        display: block;
+    }
+
+    #rtm-mail .date-actions > * {
+        margin-right: 0;
+    }
+}
+
+/* Settings Page */
+
+#rtm-mail .settings-block {
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #e4e4e4
+}
+
+#rtm-mail .settings-block-option {
+    width: 20%;
+}
+
+#rtm-mail .settings-block-input {
+    margin-left: 5vw;
+    width: 50%;
+}
+
+#rtm-mail .settings-block-option .option-label {
+    font-weight: bold;
+    margin: 0 !important;
+}
+
+#rtm-mail .settings-block-option .option-description {
+    color: #797c7f;
+    font-style: italic;
+    font-size: 12px;
+}
+
+#rtm-mail .settings-block-input {
+    display: flex;
+}
+
+#rtm-mail .outgoing-button {
+    max-width: 10%;
+    margin-left: 10px;
+}
+
+#rtm-mail .option-email-box {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+#rtm-mail .settings-block-input .outgoing_type {
+    vertical-align: inherit;
+}
+
+#rtm-mail .outgoing-mail-table {
+    margin-bottom: 15px;
+}
+
+#rtm-mail .option-switch {
+    position: relative;
+    display: inline-block;
+    width: 45px;
+    height: 26px;
+}
+
+#rtm-mail .option-switch .option-checkbox {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+#rtm-mail .option-slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #ccc;
+    -webkit-transition: 500ms;
+    transition: 500ms;
+    border-radius: 17px;
+}
+
+#rtm-mail .option-slider:before {
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 20px;
+    left: 3px;
+    bottom: 3px;
+    background-color: white;
+    -webkit-transition: 500ms;
+    transition: 500ms;
+    border-radius: 50%;
+}
+
+#rtm-mail .option-checkbox:checked + .option-slider {
+    background-color: #2196F3;
+}
+
+#rtm-mail .option-checkbox:checked + .option-slider .option-slider-on {
+    display: block;
+}
+
+#rtm-mail .option-checkbox:checked + .option-slider .option-slider-off {
+    display: none;
+}
+
+#rtm-mail .option-checkbox:focus + .option-slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+#rtm-mail .option-checkbox:checked + .option-slider:before {
+    -webkit-transform: translateX(20px);
+    -ms-transform: translateX(20px);
+    transform: translateX(20px);
+}
+
+#rtm-mail .option-slider-on {
+    display: none;
+}
+
+#rtm-mail .option-slider-off, #rtm-mail .option-slider-on {
+    position: absolute;
+    transform: translate(50%, -50%);
+    top: 50%;
+    left: 100%;
+    font-size: 12px;
+    color: #797c7f;
+}
+
+#rtm-mail .option-send-mails-time {
+    margin-top: 10px;
+}
+
+#rtm-mail .pro-settings-block {
+    opacity: 0.4;
+    pointer-events: none;
+}
+
+/** Mobile CSS **/
+@media only screen and (max-width: 782px) {
+    #rtm-mail .settings-block {
+        display: block;
+    }
+
+    #rtm-mail .settings-block-option {
+        width: 100%;
+    }
+
+    #rtm-mail .settings-block-input {
+        margin-left: 0;
+    }
+
+    #rtm-mail .option-mail-capability, #rtm-mail .checkbox-input {
+        margin-bottom: 15px;
+    }
+
+    #rtm-mail .option-email {
+        max-width: 45vw;
+    }
+
+    #rtm-mail .remove_outgoing_field {
+        padding: 0px 16px !important;
+    }
+
+    #rtm-mail .settings-input-cron {
+        margin-bottom: 10px;
+    }
+}
+
+
+/* Details Page */
+#rtm-mail .rtm-mail-page-details {
+    display: flex;
+    width: 100%;
+}
+
+#rtm-mail .details-heading {
+    padding: 15px !important;
+    background: #f6f7f7;
+    font-weight: 600;
+    border-top: 1px solid #f0f0f1;
+    border-bottom: 1px solid #f0f0f1;
+}
+
+#rtm-mail .heading-title {
+    font-size: 15px;
+}
+
+#rtm-mail .details-edit-box, #rtm-mail .details-detail-box {
+    background: #fff;
+    border: 1px solid #c3c4c7;
+    width: auto;
+    height: fit-content;
+    margin-right: 50px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.04);
+}
+
+#rtm-mail .details-edit-input, #rtm-mail .detail-status, #rtm-mail .detail-dates, #rtm-mail .detail-buttons, #rtm-mail .address_remove_input, #rtm-mail .queue-form {
+    display: flex;
+}
+
+#rtm-mail .details-edit-input {
+    position: relative;
+    padding: 5px 15px;
+}
+
+#rtm-mail .details-detail-box > * {
+    position: relative;
+    padding: 5px 15px;
+}
+
+#rtm-mail .edit-input {
+    width: 25vw;
+}
+
+#rtm-mail .edit-input-label {
+    margin: 0 0 5px !important;
+    font-weight: 600;
+}
+
+#rtm-mail .edit-input-text {
+    min-width: 100% !important;
+    max-width: 100% !important;
+}
+
+#rtm-mail .edit-input-body {
+    min-height: 340px !important;
+}
+
+#rtm-mail #save-mail-log {
+    width: 100%;
+    padding: 8px;
+    margin: 15px 0;
+    font-weight: 600;
+}
+
+#rtm-mail .edit-buttons {
+    margin-left: 10px;
+}
+
+#rtm-mail .edit-buttons button {
+    margin-top: 37%;
+}
+
+#rtm-mail .detail-status-box, #rtm-mail .detail-date-box {
+    margin-right: 30px;
+}
+
+#rtm-mail .detail-buttons input {
+    width: 48%;
+}
+
+#rtm-mail .detail-attachments {
+    margin-bottom: 10px;
+}
+
+#rtm-mail .detail-buttons {
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+#rtm-mail .detail-queue {
+    margin-bottom: 15px;
+}
+
+#rtm-mail .detail-queue form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#rtm-mail .detail-queue form > * {
+    width: 46%;
+}
+
+#rtm-mail .attachment-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    color: #1d2327 !important;
+    border: 1px solid #e3e3e3;
+    margin-bottom: 10px;
+}
+
+#rtm-mail .attachment-item:hover {
+    background: #e7e7e7;
+    border: 1px solid #ccc;
+}
+
+#rtm-mail .attachment-name {
+    margin-right: 20px;
+    font-size: 12px;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+#rtm-mail .extension-name {
+    font-size: 12px;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+#rtm-mail .rtm-mail-notice-content {
+    padding: 12px 0 12px 0;
+}
+
+#rtm-mail .rtm-mail-notice-content h2 {
+    margin: 0;
+}
+
+#rtm-mail .CodeMirror {
+    width: 30vw;
+}
+
+#rtm-mail .queue__countdown {
+    font-weight: bold;
+}
+
+#rtm-mail .queue-form {
+    margin-top: 10px;
+    align-items: center;
+}
+
+#rtm-mail .modal {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 99;
+}
+
+#rtm-mail .details-event-box {
+    width: 30vw;
+    margin-right: 100px;
+}
+
+#rtm-mail .modal .modal-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    width: 70vw;
+    height: 60vh;
+}
+
+#rtm-mail .modal .modal-container .modal-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+#rtm-mail .modal .modal-container .modal-header .modal-close {
+    color: #aaa;
+    float: right;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#rtm-mail .modal .modal-container .modal-header .modal-close:hover {
+    color: #890303;
+    cursor: pointer;
+}
+
+#rtm-mail .address_remove_input {
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#rtm-mail .address_to_remove {
+    margin-right: 20px;
+}
+
+#rtm-mail .sender-preset-list, #rtm-mail .sender-input-box {
+    margin-right: 15px;
+}
+
+#rtm-mail .sender-input-box {
+    margin-bottom: 15px;
+}
+
+#rtm-mail .sender-preset-input {
+    display: flex;
+}
+
+/** Mobile CSS **/
+@media only screen and (max-width: 782px) {
+    #rtm-mail .rtm-mail-page-details {
+        display: block;
+    }
+
+    #rtm-mail .details-edit-box {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 25px;
+    }
+
+    #rtm-mail .edit-input {
+        width: 100%;
+    }
+
+    #rtm-mail .sender-preset-input {
+        display: block;
+    }
+
+    #rtm-mail .edit-buttons {
+        display: flex;
+    }
+
+    #rtm-mail .details-edit-input {
+        align-items: center;
+    }
+
+    #rtm-mail .edit-buttons button {
+        margin-top: 31%;
+    }
+
+    #rtm-mail .edit-buttons .button-invert-remove {
+        margin-left: 5px;
+        padding: 0px 16px;
+    }
+
+    #rtm-mail .detail-status {
+        justify-content: space-between;
+    }
+
+    #rtm-mail .detail-status-box {
+        margin-right: 0;
+    }
+
+    #rtm-mail .details-detail-box {
+        width: 100%;
+    }
+
+    #rtm-mail .detail-dates {
+        justify-content: space-between;
+    }
+
+    #rtm-mail .detail-date-box {
+        margin-right: 0;
+    }
+
+    #rtm-mail .detail-buttons {
+        justify-content: space-between;
+        margin-top: 15px;
+    }
+
+    #rtm-mail .detail-buttons input {
+        margin-right: 0;
+    }
+
+    #rtm-mail .detail-queue form {
+        justify-content: space-between;
+    }
+
+    #rtm-mail #edit_bcc, #rtm-mail #edit_receiver, #rtm-mail #edit_cc {
+        width: 68%;
+    }
+
+    #rtm-mail .details-event-box {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    #rtm-mail .address_to_remove {
+        width: auto;
+    }
+
+    #rtm-mail .CodeMirror {
+        width: 100%;
+    }
+}
+
+/** Debug pages **/
+
+#rtm-mail .feature-block {
+    background: #fff;
+    border: 1px solid #c3c4c7;
+    padding: 15px;
+    width: fit-content;
+}
+
+#rtm-mail .feature-list {
+    margin: 0;
+}
+
+#rtm-mail .feature-list li {
+    font-size: 14px;
+    margin: 20px 0;
+}
+
+#rtm-mail .feature-check {
+    color: #00a32a;
+    font-size: 16px;
+    margin-right: 5px;
+}
+
+#rtm-mail .feature-block-item {
+    display: flex;
+}
+
+#rtm-mail .feature-image-preview {
+    position: relative;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.04);
+    background: #fff;
+    margin-bottom: 15px;
+}
+
+#rtm-mail .feature-image-preview .preview-image {
+    border-radius: 10px;
+    max-height: 250px;
+}
+
+#rtm-mail .feature-image-preview:hover {
+    cursor: pointer;
+}
+
+#rtm-mail .feature-image-preview:hover .search-icon {
+    opacity: 0.8;
+}
+
+#rtm-mail .feature-image-preview .search-icon {
+    font-size: 35px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.4;
+    transition: opacity 250ms ease-in-out;
+}
+
+#rtm-mail .feature-item {
+    margin-right: 20px;
+}
+
+#rtm-mail .feature-image-preview .search-icon .fa-circle {
+    color: #3c434a;
+}
+
+#rtm-mail .feature-image-preview .search-icon .fa-search-plus {
+    color: #fff;
+}
+
+#rtm-mail .image-preview-modal {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 99;
+}
+
+#rtm-mail .image-preview-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#rtm-mail .image-preview-container img {
+    max-width: 80vw;
+}
+
+#rtm-mail .preview__close {
+    position: absolute;
+    top: 20%;
+    right: 12%;
+    font-size: 22px;
+    color: #fff;
+}
+
+#rtm-mail .preview__close:hover {
+    cursor: pointer;
+}
+
+#rtm-mail .column-message {
+    width: 25%;
+}
+
+#rtm-mail .column-wp {
+    width: 25%;
+}
+
+#rtm-mail .column-details {
+    width: 7%;
+}
+
+#rtm-mail .column-action {
+    width: 20%;
+}
+
+/** Mobile CSS **/
+@media only screen and (max-width: 782px) {
+    #rtm-mail .feature-block-item {
+        display: block;
+    }
+
+    #rtm-mail .feature-item {
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+
+    #rtm-mail .feature-image-preview .preview-image {
+        max-height: inherit;
+        max-width: 100%;
+    }
+}
+
+/** DASHBOARD PAGE **/
+
+#rtm-mail .dashboard-items-group {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#rtm-mail .dashboard-block-items {
+    margin-bottom: 15px;
+    justify-content: center;
+}
+
+#rtm-mail .dashboard-block {
+    background: #fff;
+    border: 1px solid #c3c4c7;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.04);
+    width: 10vw;
+    padding: 15px;
+    margin: 0 15px 0 15px;
+}
+
+#rtm-mail .block-data {
+    font-size: 20px;
+    margin: 10px 0 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+#rtm-mail .block-data .fa-stack-1x {
+    color: #fff;
+}
+
+#rtm-mail .block-data .block-icon {
+    font-size: 18px;
+}
+
+#rtm-mail .block-data .block-amount {
+    margin-left: 10px;
+}
+
+#rtm-mail .block-label {
+    margin: 0 0 0 5px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#rtm-mail .block-updated {
+    text-transform: uppercase;
+    margin: 0 0 0 5px;
+    color: #6e6e72;
+    font-size: 12px;
+}
+
+#rtm-mail .dashboard-items-column {
+    width: 31%;
+}
+
+#rtm-mail .dashboard-item-container {
+    background: #fff;
+    border: 1px solid #c3c4c7;
+    width: 100%;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.04);
+    height: fit-content;
+    margin-bottom: 15px;
+}
+
+#rtm-mail .dashboard-item-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #c3c4c7;
+    padding: 0px 15px;
+}
+
+#rtm-mail .dashboard-header-content {
+    display: flex;
+    align-items: center;
+}
+
+#rtm-mail .dashboard-header-content > * {
+    font-size: 16px;
+}
+
+#rtm-mail .dashboard-item-content {
+    font-size: 14px;
+}
+
+#rtm-mail .dashboard-header-content h3 {
+    font-weight: 100;
+    margin-left: 15px;
+}
+
+#rtm-mail .dashboard-widget-block {
+    padding: 15px;
+    background: #f6f7f7;
+    font-weight: 600;
+    border-top: 1px solid #f0f0f1;
+    border-bottom: 1px solid #f0f0f1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#rtm-mail .dashboard-widget-block:first-child {
+    border-top: none;
+}
+
+#rtm-mail .settings-box-dashboard {
+    background: #fff;
+    padding: 3px 7px;
+    border: 1px solid #c3c4c7;
+    border-radius: 5px;
+    color: #3c434a !important;
+}
+
+#rtm-mail .dashboard-content-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 15px;
+    border-bottom: 1px solid #f0f0f1;
+}
+
+#rtm-mail .content-group-data {
+    font-weight: 600;
+    text-align: right;
+    max-width: 70%;
+}
+
+#rtm-mail .content-group-data a {
+    text-decoration: none;
+}
+
+#rtm-mail .status-warning {
+    color: #f6904d;
+}
+
+#rtm-mail .status-off {
+    color: #bf0707;
+}
+
+#rtm-mail .status-on {
+    color: #05988a;
+}
+
+#rtm-mail .status-normal {
+    color: #297da8;
+}
+
+#rtm-mail .badge-dashboard-data {
+    background: #ece8e8;
+    color: #3c434a;
+    font-weight: 600;
+    border-radius: 3px;
+    font-size: 13px;
+    padding: 2px 6px;
+}
+
+#rtm-mail .badge-dashboard-link {
+    background: #297da8;
+    color: #fff !important;
+    font-weight: 600;
+    border-radius: 3px;
+    font-size: 13px;
+    padding: 2px 6px;
+}
+
+#rtm-mail .badge-dashboard-link:hover {
+    background: #194455;
+}
+
+#rtm-mail .content-group-item {
+    border-right: 1px solid #f0f0f1;
+    padding: 5px 15px;
+    width: 24%;
+}
+
+#rtm-mail .content-group-item:last-child {
+    border-right: none;
+}
+
+#rtm-mail .group-item-label i {
+    margin-right: 10px;
+}
+
+#rtm-mail .group-item-amount {
+    font-weight: 600;
+}
+
+#rtm-mail .error-date {
+    font-size: 13px;
+    margin-left: 5px;
+}
+
+#rtm-mail .icon__info {
+    font-size: 16px;
+}
+
+#rtm-mail .icon__info:hover {
+    cursor: pointer;
+}
+
+#rtm-mail #modal_logs_info .modal-container, #rtm-mail #modal_events_info .modal-container, #rtm-mail #modal_queue_info .modal-container {
+    width: 30%;
+}
+
+#rtm-mail #modal_logs_info .modal-container p, #rtm-mail #modal_events_info .modal-container p, #rtm-mail #modal_queue_info .modal-container p {
+    font-size: 15px;
+}
+
+#rtm-mail .bulk-action:last-child {
+    margin-top: 10px;
+}
+
+/** Mobile CSS **/
+@media only screen and (max-width: 782px) {
+    #rtm-mail .dashboard-items-group {
+        display: block;
+    }
+
+    #rtm-mail .dashboard-block {
+        width: auto;
+        margin: 0 0 10px 0;
+    }
+
+    #rtm-mail .dashboard-item-container {
+        width: auto;
+        margin-bottom: 15px;
+    }
+
+    #rtm-mail #modal_logs_info .modal-container {
+        width: 80%;
+    }
+
+    #rtm-mail #modal_events_info .modal-container {
+        width: 80%;
+    }
+
+    #rtm-mail .badge-wp-data {
+        padding: 0px 5px;
+    }
+
+    #rtm-mail .bulk-action:last-child {
+        margin-top: 0;
+    }
+
+    #rtm-mail .dashboard-items-column {
+        width: auto;
+    }
+
+    #rtm-mail .event-detail-block, #rtm-mail .event-details-expand {
+        width: auto;
+    }
+}
+
+/**** SMTP Page ****/
+#rtm-mail .form-input {
+    max-height: 36px;
+    width: 250px;
+}
+
+#rtm-mail .encryption-option {
+    margin-right: 25px;
+}
+
+#rtm-mail .smtp__option {
+    pointer-events: none;
+    opacity: 0.4;
+    transition: all 250ms ease-in-out;
+}
+
+#rtm-mail .smtp__credentials {
+    display: none;
+}
+
+/** Mobile CSS **/
+@media only screen and (max-width: 782px) {
+
+}
